@@ -1,4 +1,4 @@
-package com.algamoneyapi.algamoney.Model;
+package com.algamoneyapi.algamoney.model;
 
 import jakarta.persistence.*;
 

@@ -1,14 +1,12 @@
-package com.algamoneyapi.algamoney.Resource;
+package com.algamoneyapi.algamoney.resource;
 
-import com.algamoneyapi.algamoney.Model.Categoria;
-import com.algamoneyapi.algamoney.Repository.CategoriaRepository;
+import com.algamoneyapi.algamoney.model.Categoria;
+import com.algamoneyapi.algamoney.repository.CategoriaRepository;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import org.springframework.web.util.UriBuilder;
 
 import java.net.URI;
 import java.util.List;
