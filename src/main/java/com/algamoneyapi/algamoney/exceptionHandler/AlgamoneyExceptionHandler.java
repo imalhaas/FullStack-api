@@ -26,6 +26,8 @@ public class AlgamoneyExceptionHandler extends ResponseEntityExceptionHandler {
         return handleExceptionInternal(ex, new Erro(mensagemusuario, mensagemDesenvolvedor), headers, HttpStatus.BAD_REQUEST, request);
     }
 
+    //lm
+
     public static class Erro {
 
         private String mensagemusuario;
